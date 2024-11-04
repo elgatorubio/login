@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f9fa;
+}
+
+/* Flexbox para asegurar que el footer esté al final */
+html, body {
+    height: 100%;       /* Asegura que el body ocupe el 100% de la pantalla */
+    margin: 0;
+    display: flex;      /* Flexbox en el body para organizar el contenido */
+    flex-direction: column;
+}
+
+main {
+    flex: 1;            /* El main se expande para ocupar todo el espacio disponible */
+}
+
+/* Estilos del footer */
+footer {
+    color: rgb(40, 40, 40);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 5rem;
+}
